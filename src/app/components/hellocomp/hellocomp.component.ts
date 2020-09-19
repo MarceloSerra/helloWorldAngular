@@ -9,7 +9,7 @@ export class HellocompComponent implements OnInit {
 
   title:string = 'My first Component';
   dados:string;
-  imgUrl:string = '/assets/img-1.jpg';
+  imgUrl:string = './assets/img-1.jpg';
   showImage:boolean = true;
 
   constructor() { }
